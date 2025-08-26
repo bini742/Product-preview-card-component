@@ -261,12 +261,15 @@ body{
         margin-top: 12px;
         text-decoration:line-through;
         font-weight: 300;
+        font-family: "Montserrat", sans-serif;
     }
     #btn{
         display: none;
     }
-    .btn{
-        margin-top:30px;
+   .btn{
+        margin-top:20px;
+        margin-bottom:20px;
+        width:100%;
     }
-
 }
+
