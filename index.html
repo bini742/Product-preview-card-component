@@ -1,27 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Perfume Product Card</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>first-challenge</title>
 </head>
 <body>
-<div id="main">
-    <img src="img/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum">
-    <div id="content">
-        <p id="perfume">PERFUME</p>
-        <div id="title">Gabrielle Essence Eau De Parfum</div>
-        <div id="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</div>
-        <div id="money">
-            <div id="price">$149.99</div>
-            <div id="previous">$169.99</div>
+
+<div class="container">
+    <img class="product-mobile" src="/Frontend Mentore-responsive-path/first-challange/img/image-product-mobile.jpg" alt="">
+    <img class="product-desktop" src=" /Frontend Mentore-responsive-path/first-challange/img/image-product-desktop.jpg" alt="">
+    <div class="content">
+        <div class="form">
+            <p class="product-name">
+                PERFUME
+            </p>
+            <p class="product-title">
+                Gabrielle
+                Essence Eau
+                De Parfum
+            </p>
+            <p class="product-description">
+                A floral, solar and voluptuous <br>
+                interpretation composed by Olivier<br>
+                Polge, Perfumer-Creator
+                for <br> the House of CHANEL.
+            </p>
         </div>
-        <a href="https://www.chanel.com/us/fragrance/p/120630/gabrielle-chanel-essence-eau-de-parfum-spray/" id="btn"> <img src="img/icon-cart.svg" alt="Cart Icon"> Add to Cart</a>
+        <div class="price-div">
+            <p class="price">$149.99</p>
+            <p class="previous"> $169.99</p>
+        </div>
+    </div>
+    <div class="button">
+        <button class="btn" id="btn"><img src="/Frontend Mentore-responsive-path/first-challange/img/icon-cart.svg" alt="">Add to Cart</button>
+    </div>
+    <div class="desktop">
+        <div class="form-desktop">
+            <p class="product-name-desktop">
+                PERFUME
+            </p>
+            <p class="product-title-desktop">
+                Gabrielle <br>
+                Essence Eau <br>
+                De Parfum <br>
+            </p>
+            <p class="product-description-desktop">
+                A floral, solar and voluptuous <br>
+                interpretation composed by  <br>
+                Olivier Polge, Perfumer-Creator <br>
+                for  the House of CHANEL.
+            </p>
+        </div>
+        <div class="price-div-desktop">
+            <p class="price-desktop">$149.99</p>
+            <p class="previous-desktop"> $169.99</p>
+        </div>
+            <button class="btn"><img src="/Frontend Mentore-responsive-path/first-challange/img/icon-cart.svg" alt="">Add to Cart</button>
+
     </div>
 </div>
 </body>
